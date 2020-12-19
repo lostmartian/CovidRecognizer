@@ -1,8 +1,8 @@
 # CovidRecognizer &middot;
 
-[![version](https://img.shields.io/badge/tensorflow-v2.4.0-gold.svg)]
-[![version](https://img.shields.io/badge/keras-v2.2.5-blue.svg)]
-[![version](https://img.shields.io/badge/nibabel-v3.2.1-green.svg)]
+![version](https://img.shields.io/badge/tensorflow-v2.4.0-gold.svg)
+![version](https://img.shields.io/badge/keras-v2.2.5-blue.svg)
+![version](https://img.shields.io/badge/nibabel-v3.2.1-green.svg)
 
 ## AIM: 
 
@@ -12,7 +12,7 @@ Classifying whether the the patient is covid positive or negative based on their
 
 [This](https://www.kaggle.com/andrewmvd/covid19-ct-scans) dataset contains 20 images of covid positive patients along with thier lung mask and infection mask in the Nifti format.
  
-<img src="readme_files/datset_img.png" align="middle" height="300" >
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/dataset_img.png" align="middle" height="300" >
 
 ## ACKNOWLEDGEMENTS:
 
