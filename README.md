@@ -1,6 +1,21 @@
-This project revolves around the concepts of deep learning. 
-Computer vision using deep neural networks is one of the hottest topics in machine learning today. 
-The idea where computers are capable of analysing images and providing relevant outputs much more accurately as compared to humans is itself very fascinating.
-We have used Convolutional Neural Networks(CNNs) for efficient predictions. We analysed all the major CNNs available today like InceptionNnet, ResNet etc. We also tried the combination of several networks to find what gives the most accurate results.
-We have used several Convolutional layers, pooling layers, non linearity functions(like sigmoid and Relu) to make our neural network more and more accurate. We also used data augmentation to make it more random so that it fits well with variable data sets. 
+# CovidRecognizer &middot;
+
+[![version](https://img.shields.io/badge/tensorflow-v2.4.0-gold.svg)]
+[![version](https://img.shields.io/badge/keras-v2.2.5-blue.svg)]
+[![version](https://img.shields.io/badge/nibabel-v3.2.1-green.svg)]
+
+## AIM: 
+
+Classifying whether the the patient is covid positive or negative based on their lung's CT Scan analysis. Performing lung and infection segmentation if the patient is covid positive.
+
+## DATASET:
+
+[This](https://www.kaggle.com/andrewmvd/covid19-ct-scans) dataset contains 20 images of covid positive patients along with thier lung mask and infection mask in the Nifti format.
  
+<img src="readme_files/datset_img.png" align="middle" height="300" >
+
+## ACKNOWLEDGEMENTS:
+
+[1] - Paiva, O., 2020. CORONACASES.ORG - Helping Radiologists To Help People In More Than 100 Countries! Coronavirus Cases. See [here](https://coronacases.org/)
+
+[2] - Kaggle dataset available [here](https://www.kaggle.com/andrewmvd/covid19-ct-scans)
