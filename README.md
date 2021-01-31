@@ -33,6 +33,33 @@ Dataset cropping process
 Final preprocessed dataset
 </p>
 
+## CLASSIFICATION:
+
+The pre-processed 2d ct-scans are labeled as Covid-19 positive or negative based on their infection masks. The labeled dataset is then used
+to train a CNN model which gives a value between 0 and 1. Threshold is decided using ROC curve and the prediction is converted to binary values.
+A confusion matrix is created which is used to calculate precision, recall and F1 score.
+
+<p align="center">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classigraph.png" align="middle">
+<br>
+
+<p align="center">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classiss.png" align="middle">
+<br>
+
+## LUNG SEGMENTATION:
+
+The pre-processed 2d ct-scans and the lung masks are used to train a CNN model which marks the lung area in the ct-scans. A U-net is implemented for this task.
+Dice coefficient is used to judge the efficiency of the model. Exponential decay is used to change the learning rate during training.
+
+<p align="center">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungseggraph.png" align="middle">
+<br>
+
+<p align="center">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungsegss.png" align="middle">
+<br>
+
 ## INFECTION SEGMENTATION:
 
 We implemented a U-net with dice coefficient along with Cosine Annealing Learning Rate Schedule for state of the art segmentation achieving a dice-coefficient of 0.8217 and validation-dice-coefficient 0.7821.
