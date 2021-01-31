@@ -8,6 +8,8 @@
 
 Classifying whether the the patient is covid positive or negative based on their lung's CT Scan analysis. Performing lung and infection segmentation if the patient is covid positive.
 
+## 
+
 ## DATASET:
 
 [This](https://www.kaggle.com/andrewmvd/covid19-ct-scans) dataset contains 20 images of covid positive patients along with thier lung mask and infection mask in the Nifti format.
@@ -17,8 +19,19 @@ Classifying whether the the patient is covid positive or negative based on their
 ## DATA PREPROCESSING:
 
 The data pre-processing step includes the contrast enhancement as well as cropping the CT-scan images such that they focus only on the lung part. To achieve this we used CLAHE enhancer for contrast improvements. To crop the images we first binarised the image and performed bio-medical imaging techniques such as erosion and dilation. Using K-means found clusters and drew bound box around it and cropped the CT-scan.
-
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/data_preprocessing.png" align="middle" height="450" width="500">
+<p align="center">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/dataset_contrast.png" align="middle">
+<br>
+CLAHE Contrast enhancements
+<br><br>
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/dataset_kmeans.png" align="middle">
+<br>
+Dataset cropping process
+<br><br>
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_dataset.png" align="middle">
+<br>
+Final preprocessed dataset
+</p>
 
 ## INFECTION SEGMENTATION:
 
