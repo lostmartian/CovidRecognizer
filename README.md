@@ -18,13 +18,13 @@ Classifying whether the the patient is covid positive or negative based on their
 
 The data pre-processing step includes the contrast enhancement as well as cropping the CT-scan images such that they focus only on the lung part. To achieve this we used CLAHE enhancer for contrast improvements. To crop the images we first binarised the image and performed bio-medical imaging techniques such as erosion and dilation. Using K-means found clusters and drew bound box around it and cropped the CT-scan.
 
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/data_preprocessing.png" align="middle" height="450" width="700">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/data_preprocessing.png" align="middle" height="450" width="500">
 
 ## INFECTION SEGMENTATION:
 
 We implemented a U-net with dice coefficient along with Cosine Annealing Learning Rate Schedule for state of the art segmentation achieving a dice-coefficient of 0.8217 and validation-dice-coefficient 0.7821.
 
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/infection_segmentation.png" align="middle" height="450" width="700">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/infection_segmentation.png" align="middle" height="450" width="500">
 
 ## ACKNOWLEDGEMENTS:
 
