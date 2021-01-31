@@ -40,9 +40,9 @@ to train a CNN model which gives a value between 0 and 1. Threshold is decided u
 A confusion matrix is created which is used to calculate precision, recall and F1 score.
 
 <p align="center">
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classigraph.png" align="middle">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classigraph.PNG" align="middle">
 <br>
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classiss.png" align="middle">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classiss.PNG" align="middle">
 <br>
 </p>
 
@@ -52,9 +52,9 @@ The pre-processed 2d ct-scans and the lung masks are used to train a CNN model w
 Dice coefficient is used to judge the efficiency of the model. Exponential decay is used to change the learning rate during training.
 
 <p align="center">
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungseggraph.png" align="middle">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungseggraph.PNG" align="middle">
 <br>
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungsegss.png" align="middle">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungsegss.PNG" align="middle">
 <br>
 </p>
 
