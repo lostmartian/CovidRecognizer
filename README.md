@@ -28,7 +28,7 @@ CLAHE Contrast enhancements
 <br>
 Dataset cropping process
 <br><br>
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_dataset.png" align="middle">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_dataset.png" align="middle" height="250" width="500">
 <br>
 Final preprocessed dataset
 </p>
@@ -64,7 +64,11 @@ Dice coefficient is used to judge the efficiency of the model. Exponential decay
 
 We implemented a U-net with dice coefficient along with Cosine Annealing Learning Rate Schedule for state of the art segmentation achieving a dice-coefficient of 0.8217 and validation-dice-coefficient 0.7821.
 
+<p align="center">
 <img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/infection_segmentation.png" align="middle" height="450" width="500">
+<br>
+Infection segmentation model accuracy and lose along with mask predictions
+</p>
 
 ## ACKNOWLEDGEMENTS:
 
