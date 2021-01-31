@@ -28,7 +28,7 @@ CLAHE Contrast enhancements
 <br>
 Dataset cropping process
 <br><br>
-<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_dataset.png" align="middle">
+<img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_dataset.png" align="middle" height="250" width="500">
 <br>
 Final preprocessed dataset
 </p>
