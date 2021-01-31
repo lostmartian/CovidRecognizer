@@ -42,10 +42,9 @@ A confusion matrix is created which is used to calculate precision, recall and F
 <p align="center">
 <img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classigraph.png" align="middle">
 <br>
-
-<p align="center">
 <img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/classiss.png" align="middle">
 <br>
+</p>
 
 ## LUNG SEGMENTATION:
 
@@ -55,10 +54,9 @@ Dice coefficient is used to judge the efficiency of the model. Exponential decay
 <p align="center">
 <img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungseggraph.png" align="middle">
 <br>
-
-<p align="center">
 <img src="https://github.com/lostmartian/CovidRecognizer/blob/main/readme_files/final_images/lungsegss.png" align="middle">
 <br>
+</p>
 
 ## INFECTION SEGMENTATION:
 
